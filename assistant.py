@@ -7,7 +7,7 @@ import requests
 from bs4 import BeautifulSoup
 from openai import OpenAI
 import streamlit as st
-
+import time
 # Apply nest_asyncio to allow nested event loops
 nest_asyncio.apply()
 
